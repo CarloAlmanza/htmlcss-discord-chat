@@ -56,6 +56,19 @@ main {
     flex-grow: 0;
     padding: 20px;
     color: white;
+    position: relative;
+}
+
+main::after {
+    content: "new chat";
+    position: absolute;
+    background-color: blueviolet;
+    width: 25px;
+    height: 25px;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .main-header {
@@ -86,7 +99,7 @@ main {
 .messages {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     overflow-y: auto;
 }
 
