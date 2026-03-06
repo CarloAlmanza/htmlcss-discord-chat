@@ -41,6 +41,12 @@ body {
 
 .sidebar img:first-child {
     border-radius: 0;
+    border-left: 5px solid white;
+}
+
+.sidebar img:first-child:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 
 main {
