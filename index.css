@@ -134,3 +134,51 @@ footer div img {
 footer div span {
     font-size: 12px;
 }
+
+.pallino-rosso {
+    position: relative;
+}
+
+.pallino-rosso::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: -3px;
+    left: 28px;
+    border: 3px solid black;
+}
+
+.pallino-arancione {
+    position: relative;
+}
+
+.pallino-arancione::after {
+    content: "";
+    position: absolute;
+    background-color: orange;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: -3px;
+    left: 28px;
+    border: 3px solid black;
+}
+
+.pallino-verde {
+    position: relative;
+}
+
+.pallino-verde::after {
+    content: "";
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: -3px;
+    left: 28px;
+    border: 3px solid black;
+}
